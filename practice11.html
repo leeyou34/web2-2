@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <title>Dev Thomas Lee</title>
-  <meta charset="utf-8">
-  <style>
-  #coloring2 {
-    color:#0B5345;
-  }
-  .coloring1 {
-    color:olive;
-    font-size: 30px;
-  }
-  a {
-    color:green;
-  }
-  h1 {
-    font-size: 45px;
-    text-align: center;
-    border-bottom: 1px solid gray;
-    margin: 0px;
-    padding: 20px;
-  }
-  ol {
-    border-right: 1px solid gray;
-    width: 250px;
-    margin: 0px;
-    margin-left: 40px; /*command sentence was added */
-    padding: 20px;
-  }
-  body {
-    margin: 0px;
-  }
-    h2, img, p { /*command sentence was added */
-    margin-left:40px; /*command sentence was added */
-    } /*command sentence was added */
-  </style>
-</head>
-<body>
-<h1><a href="index.html" class="coloring1" id="coloring2">Dev Thomas Lee</h1>
-<ol>
-  <a href="practice10.html" class="coloring1"><li>Introduction</li></a>
-  <a href="practice11.html" class="coloring1"><li>Career</li></a>
-  <a href="practice12.html" class="coloring1"><li>Why developer?</li></a>
-  <a href="practice13.html" class="coloring1"><li>Goal</li></a>
-</ol>
-<h2><span style="color:green">2.Career</span></h2><br>
-<img src="green-chameleon-s9CC2SKySJM-unsplash.jpg" width="25%">
-<p>
+  <head>
+    <title>Dev Thomas Lee</title>
+    <meta charset="utf-8">
+    <style>
+      .coloring1 {
+        color: olive;
+        font-size: 20px;
+      }
+      a {
+      color: green;
+      }
+      h1 {
+        color: #0B5345;
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin:0;
+        padding:20px;
+        }
+      #grid ol {
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+        width: 150px;
+        margin:0;
+        margin-left: 40px;
+        padding: 20px;
+        padding-left: 33px
+        }
+      #grid {
+        display:grid;
+        grid-template-columns: 150px 1fr;
+        }
+      #article {
+        padding-left:150px;
+        border-bottom:1px solid gray;
+        margin:0;
+        }
+    </style>
+  </head>
+  <body>
+    <h1><a href="index.html" class="coloring1" id="coloring2">Dev Thomas Lee</h1>
+      <div id="grid">
+        <ol>
+         <a href="practice10.html" class="coloring1"><li>Introduction</li></a>
+         <a href="practice11.html" class="coloring1"><li>Career</li></a>
+         <a href="practice12.html" class="coloring1"><li>Why developer?</li></a>
+         <a href="practice13.html" class="coloring1"><li>Goal</li></a>
+        </ol>
+        <div= id="article">
+        <h2><span style="color:green">2.Career</span></h2><br>
+    <img src="green-chameleon-s9CC2SKySJM-unsplash.jpg" width="25%">
+      <p>
 1. 컨설팅 <br><br>
 2. 교육<br><br>
 3. IT 영업<br><br>
 4. 건축 신규사업팀 영업<br><br>
 </p>
+        </div>
+      </div>
 </body>
 </html>
