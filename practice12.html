@@ -4,9 +4,6 @@
   <title>Dev Thomas Lee</title>
   <meta charset="utf-8">
   <style>
-  #coloring2 {
-  color:#0B5345;
-  }
   .coloring1 {
   color:olive;
   font-size: 30px;
@@ -21,33 +18,34 @@
     margin: 0px;
     padding: 20px;
   }
-  ol {
+  #grid ol {
+    border-bottom: 1px solid gray;
     border-right: 1px solid gray;
-    width: 250px;
+    width: 150px;
     margin: 0px;
-    margin-left: 40px; /*command sentence was added */
     padding: 20px;
   }
-  body {
+  #article {
+    padding-left:150px;
+    border-bottom:1px solid gray;
     margin: 0px;
   }
-    h2, img, p, div { /*command sentence was added */
-    margin-left: 40px; /*command sentence was added */
-    } /*command sentence was added */
   </style>
 </head>
 <body>
-<h1><a href="index.html"class="coloring1" id="coloring2">Dev Thomas Lee</h1>
-<ol>
-  <a href="practice10.html" class="coloring1"><li>Introduction</li></a>
-  <a href="practice11.html" class="coloring1"><li>Career</li></a>
-  <a href="practice12.html" class="coloring1"><li>Why developer?</li></a>
-  <a href="practice13.html" class="coloring1"><li>Goal</li></a>
-</ol>
-<h2><span style="color:green">3.Why developer?</span></h2>
-<img src="procreator-ux-design.jpg" width="25%"><br><br>
-<strong><div style="font-size:20px">3.1. 나의 이야기</div></strong><br><br> /*command sentence was added */
-<P><br>
+  <h1><a href="index.html"class="coloring1" id="coloring2">Dev Thomas Lee</a></h1>
+   <div id="grid"> 
+    <ol>
+      <a href="practice10.html" class="coloring1"><li>Introduction</li></a>
+      <a href="practice11.html" class="coloring1"><li>Career</li></a>
+      <a href="practice12.html" class="coloring1"><li>Why developer?</li></a>
+      <a href="practice13.html" class="coloring1"><li>Goal</li></a>
+    </ol>
+    <div id="article"> 
+    <h2><span style="color:green">3.Why developer?</span></h2>
+      <img src="procreator-ux-design.jpg" width="25%"><br><br>
+        <strong><div style="font-size:20px">3.1. 나의 이야기</div></strong><br><br> /*command sentence was added */
+          <P><br>
 나는 어렸을 때 호기심이 많은 아이였다.<br><br>
 그러다 보니 내가 관심이 꽂힌 분야에 대해 몰입하는 행동들이 종종 있었다.<br><br>
 성장하면서 나를 항상 흥분하게 했던 대상은 기계와 전자기기였다.<br><br>
@@ -80,7 +78,9 @@ IT의 창조와 혁신 에너지가 4차산업혁명을 주도하고 세상의 �
 치열하게 세상과 같이 나 자신을 진화화고 변화하고 싶으며... 나는 내가 살아있음을 증명하고자 한다.<br><br>
 이렇게 나는 개발자가 되었다.
 </p>
-</body>
+     </div>
+  </div>
+ </body>
 </html>
 
 
