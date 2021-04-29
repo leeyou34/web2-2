@@ -4,9 +4,6 @@
   <title>Dev Thomas Lee</title>
   <meta charset="utf-8">
   <style>
-    #coloring2 {
-      color:#0B5345;
-    }
     .coloring1 {
       color:olive;
       font-size:30px;
@@ -21,32 +18,38 @@
       margin: 0;
       padding: 20px;
     }
-    ol {
+    #grid ol {
+      border-bottom: 1px solid gray;
       border-right: 1px solid gray;
-      width: 250px;
+      width: 150px;
       margin: 0;
-      margin-left: 40px; /*command sentence was added */
       padding: 20px;
+      padding-left: 33px;
     }
-    body {
+    #grid {
+      display:grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #article {
+      padding-left: 150px;
+      border-bottom: 1px solid gray;
       margin: 0;
     }
-    h2, img, p, div { /*command sentence was added */
-      margin-left: 40px;/*command sentence was added */
-    } /*command sentence was added */
   </style>
 </head>
 <body>
-<h1><a href="index.html" class="coloring1" id="coloring2">Dev Thomas Lee</h1>
-<ol> 
-  <a href="practice10.html" class="coloring1"><li>Introduction</li></a>
-  <a href="practice11.html" class="coloring1"><li>Career</li></a>
-  <a href="practice12.html" class="coloring1"><li>Why developer?</li></a>
-  <a href="practice13.html" class="coloring1"><li>Goal</li></a>
-</ol>
-<h2><span style="color:green">4.Goal</span></h2>
-<img src="goals.jpg" width="25%">
-<br><br>
+  <h1><a href="index.html" class="coloring1" id="coloring2">Dev Thomas Lee</a></h1>
+    <ol> 
+      <div id="grid">  
+        <a href="practice10.html" class="coloring1"><li>Introduction</li></a>
+        <a href="practice11.html" class="coloring1"><li>Career</li></a>
+        <a href="practice12.html" class="coloring1"><li>Why developer?</li></a>
+        <a href="practice13.html" class="coloring1"><li>Goal</li></a>
+      </ol>
+       <div id="article">
+        <h2><span style="color:green">4.Goal</span></h2>
+        <img src="goals.jpg" width="25%">
+         <br><br>
   현재 목표는 <u>웹 개발자의 기술 스택을</u> 익히는 것이 내 목표이다.
   목표하는 기술 스택은 아래와 같다.
   <div><ol1> /*command sentence was added */
@@ -55,5 +58,7 @@
     <li><strong>Node</strong></li>
     <li><strong>React</strong></li>
     </ol1></div> /*command sentence was added */
-</body>
+      </div>
+    </div>
+  </body>
 </html>
